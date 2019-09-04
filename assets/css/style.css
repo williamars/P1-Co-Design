@@ -7,7 +7,7 @@
   height: 5rem;
   border-style: solid;
   border-width: 0.01rem;
-  background-color: #FFFFFF;
+  background-color: #1FB6ED;
 }
 
 .logo{
@@ -24,7 +24,7 @@
   height: 5rem;
   align-items: center;
   font-family: 'Roboto Slab', serif;
-  color: #000000;
+  color: #;
   margin-right: 32.5rem;
 }
 
@@ -35,18 +35,18 @@
   height: 10rem;
   align-items: center;
   font-family: 'Roboto Slab', serif;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .link{
   font-size: 1.1rem;
-  color: #000000;
+  color: #DAEAED;
   text-decoration: none;
   font-weight: bold;
 }
 
 .fundo{
-  color: #FFFFFF;
+  color: #000000;
 }
 /* index */
 
@@ -71,6 +71,7 @@
   flex-direction: column;
   font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
+  color: #DAEAED;
 }
 
 .index-subtitle{
@@ -78,6 +79,7 @@
   width: 40rem;
   height: 3.5rem;
   font-family: 'Roboto Slab', serif;
+  color: #DAEAED;
 }
 
 .index-title-img{
@@ -90,9 +92,10 @@
   display: flex;
   justify-content: space-between;
   margin: 2rem auto;
-  width:63rem;
+  width:70rem;
   height:12rem;
   font-family: 'Red Hat Text', sans-serif;
+  color: #000000;
 
 }
 
@@ -102,9 +105,10 @@
   width:20rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
   background: dodgerblue; 
-  background-color: #FFFFFF;
+  background-color: #000000;
 }
 
 .software{
@@ -113,8 +117,9 @@
   width:20rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
-  background-color: #FFFFFF;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
+  background-color: #000000;
 }
 
 .calculo{
@@ -123,8 +128,9 @@
   width:20rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
-  background-color: #FFFFFF;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
+  background-color: #000000;
 }
 
 .sections-menu-item-image{
@@ -147,7 +153,7 @@
   width: 7rem;
   height:5rem;
   font-size: 0.9rem;
-  color: #000000;
+  color: #DAEAED;
 }
 
 .sections-menu-item-link{
@@ -157,7 +163,7 @@
   margin-top: 0.5rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.2rem;
-  color: #000000;
+  color: #DAEAED;
 }
 
 
