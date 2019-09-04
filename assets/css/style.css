@@ -222,7 +222,7 @@
   border-style: solid;
   border-width: 0.3rem;
   border-color: #1FB6ED;
-  background-color: #FFFFFF;
+
 }
 
 .dados {
@@ -234,7 +234,7 @@
   border-style: solid;
   border-width: 0.3rem;
   border-color: #1FB6ED;
-  background-color: #FFFFFF;
+
 }
 
 .game {
@@ -246,7 +246,7 @@
   border-style: solid;
   border-width: 0.3rem;
   border-color: #1FB6ED;
-  background-color: #FFFFFF;
+
 }
 
 .portfolio{
@@ -258,7 +258,7 @@
   border-style: solid;
   border-width: 0.3rem;
   border-color: #1FB6ED;
-  background-color: #FFFFFF;
+
 }
 
 .software-menu-item-image {
@@ -283,6 +283,7 @@
  height:17rem;
  font-family: 'Red Hat Text', serif;
  font-size: 0.9rem;
+ color: #FFFFFF;
 }
 
 .software-menu-item-link{
@@ -291,6 +292,7 @@
   margin-top: 0.5rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.2rem;
+  color: #FFFFFF;
 }
 
 
