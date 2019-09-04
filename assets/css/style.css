@@ -1,10 +1,10 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin: 0.7rem auto;
+  margin: 0 auto;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 0 auto;
   border-style: solid;
   border-width: 0.01rem;
   background-color: #1FB6ED;
@@ -19,13 +19,17 @@
 
 .main-menu{
   display: flex;
-  justify-content: space-around;
-  width: 15rem;
+  justify-content: space-between;
+  width: 80rem;
   height: 5rem;
   align-items: center;
   font-family: 'Roboto Slab', serif;
+<<<<<<< HEAD
+  color: #000000;
+=======
   color: #;
   margin-right: 32.5rem;
+>>>>>>> 9d8b26f80286c4a4a0e57a9190f922950fb884e0
 }
 
 .main-menu-item{
@@ -374,7 +378,15 @@
 
 @media (max-width: 68rem) {
   .header{
-    background: green;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-width: 0.0001rem;
+    background-color: #FFFFFF;
   }
 }
 
