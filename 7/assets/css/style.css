@@ -1,10 +1,9 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-top: 0.2rem;
-  margin-left: 0.05rem;
+  margin: 0.7rem auto;
   align-items: center;
-  width: 84.2rem;
+  width: 78.5rem;
   height: 5rem;
   border-style: solid;
   border-width: 0.01rem;
