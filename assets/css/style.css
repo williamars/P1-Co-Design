@@ -106,7 +106,6 @@
   border-style: solid;
   border-width: 0.3rem;
   border-color: #1FB6ED;
-  background: dodgerblue; 
   background-color: #000000;
 }
 
@@ -221,7 +220,8 @@
   width:22rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
   background-color: #FFFFFF;
 }
 
@@ -232,7 +232,8 @@
   width:22rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
   background-color: #FFFFFF;
 }
 
@@ -243,7 +244,8 @@
   width:22rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
   background-color: #FFFFFF;
 }
 
@@ -254,7 +256,8 @@
   width:22rem;
   height:12rem;
   border-style: solid;
-  border-width: 0.1rem;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
   background-color: #FFFFFF;
 }
 
