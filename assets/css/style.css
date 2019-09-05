@@ -371,7 +371,6 @@
   display: flex;
   margin-top: 3%;
   margin-bottom: 3%;
-  margin-left: 28%;
   width: 35rem;
   height: 20rem;
 }
@@ -391,3 +390,57 @@
   }
 }
 
+.proj-eq-mat{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+  width:70rem;
+  height:12rem;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #000000;
+
+}
+
+.equipe-box{
+  display: grid;
+  grid-template-columns: ;
+  width:12rem;
+  height:12rem;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
+  background-color: #000000;
+}
+
+.equipe-title{
+  background-color: #000000;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #FFFFFF;
+}
+
+.equipe-text1, .equipe-text2, .equipe-text3 {
+  font-size: 0.9rem;
+  color: #DAEAED;
+}
+
+.material-box{
+  display: grid;
+  grid-template-columns: ;
+  width:12rem;
+  height:12rem;
+  border-style: solid;
+  border-width: 0.3rem;
+  border-color: #1FB6ED;
+  background-color: #000000;
+}
+
+.material-title{
+  background-color: #000000;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #FFFFFF;
+}
+
+.material-text1, .material-text2, .material-text3 {
+  font-size: 0.9rem;
+  color: #DAEAED;
+}
