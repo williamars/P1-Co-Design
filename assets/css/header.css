@@ -51,10 +51,37 @@
 
 @media(max-width: 49rem){
   .header{
-    width: 80rem;
+    width: 64rem;
     height: 8rem;
-    margin:0;
+    margin: auto;
   }
+  
+  .main-menu{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  width: 70rem;
+  height: 5rem;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  color: #000000;
+}
+
+.main-menu-item{
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+  height: 10rem;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  color: #000000;
+}
+
+.link{
+  font-size: 1.1rem;
+  color: #DAEAED;
+  text-decoration: none;
+  font-weight: bold;
   .link{
     font-size: 2rem;
   }
