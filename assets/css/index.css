@@ -112,3 +112,7 @@
   font-size: 1.2rem;
   color: #DAEAED;
 }
+
+@media (max-width: 68rem){
+  .index-sections{
+    flex-direction: column;
