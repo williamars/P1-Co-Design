@@ -113,6 +113,9 @@
   color: #DAEAED;
 }
 
-@media (max-width: 68rem){
+@media(max-width: 49rem){
   .index-sections{
     flex-direction: column;
+    margin: 0 auto;
+  }
+}
