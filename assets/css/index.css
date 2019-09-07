@@ -117,7 +117,25 @@
   .index-sections{
     width: 30rem;
     flex-direction: column;
-    margin-left: 9.5rem; 
+    margin-left: 8rem; 
 
+  }
+  .fablab{
+    width: 23rem;
+  }
+  .calculo{
+    width: 23rem;
+    margin-top: 1rem;
+  }
+  .software{
+    width: 23rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .sections-menu-item-image{
+    width: 14rem;
+  }
+  .sections-menu-item{
+    width: 8rem;
   }
 }
