@@ -48,3 +48,13 @@
 .fundo{
   color: #000000;
 }
+
+
+@media(max-width: 49rem){
+  .header{
+    width: 41.5rem
+  }
+  .main-menu{
+    width: 39rem;
+  }
+}

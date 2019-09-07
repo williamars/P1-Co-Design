@@ -112,3 +112,12 @@
   font-size: 1.2rem;
   color: #DAEAED;
 }
+
+@media(max-width: 49rem){
+  .index-sections{
+    width: 30rem;
+    flex-direction: column;
+    margin-left: 9.5rem; 
+
+  }
+}
