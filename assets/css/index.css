@@ -112,14 +112,3 @@
   font-size: 1.2rem;
   color: #DAEAED;
 }
-
-@media(max-width: 49rem){
-  .index-header{
-    margin: 0;
-    width: 40rem;
-  }
-  .index-sections{
-    margin: 0;
-    width: 40rem
-  }
-}

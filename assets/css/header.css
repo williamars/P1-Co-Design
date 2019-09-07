@@ -48,14 +48,3 @@
 .fundo{
   color: #000000;
 }
-
-@media(max-width: 49rem){
-  .header{
-    width: 10rem;
-    height: 8rem;
-    margin:0;
-  }
-  .link{
-    font-size: 2rem;
-  }
-}
