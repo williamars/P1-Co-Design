@@ -125,3 +125,20 @@
   font-size: 1.2rem;
   color: #FFFFFF;
 }
+
+
+@media(max-width: 49rem){
+  .software-sections{
+    display: grid;
+    flex-direction: column;
+  }
+
+  .software-title-image{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 10rem;
+  }
+
+
+}
