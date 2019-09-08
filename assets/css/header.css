@@ -52,8 +52,9 @@
 
 @media(max-width: 49rem){
   .header{
-    width: 42.6rem
+    width: 42.6rem;
   }
+
   .main-menu{
     width: 39rem;
   }

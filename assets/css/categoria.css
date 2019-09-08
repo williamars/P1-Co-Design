@@ -27,6 +27,7 @@
 
 }
 
+
 .section-title-image {
   display: flex;
   justify-content: space-around;
@@ -38,6 +39,7 @@
   display: flex;
   justify-content: space-between;
   margin: 1% auto;
+  margin-right: 20rem;
   width:52%;
   height:12rem;
   border-style: solid;
@@ -127,18 +129,45 @@
 }
 
 
-@media(max-width: 49rem){
+@media(max-width: 70rem){
   .software-sections{
     display: grid;
     flex-direction: column;
+    margin-right: 3rem;
   }
 
-  .software-title-image{
+  .software-menu-item-image{
     display: flex;
-    justify-content: space-around;
-    width: 60%;
-    height: 10rem;
+    margin-top: 0rem;
+    margin-left: -0.01rem;
+    width:10rem;
+    height:11.95rem;
   }
 
+  .app{
+    width: 23rem;
+  }
 
+  .dados{
+    width: 23rem;
+    margin-top: 1rem;
+  }
+
+  .game{
+    width: 23rem;
+    margin-top: 14.3rem;
+  }
+
+  .portfolio{
+    width: 23rem;
+    margin-top: 1rem;
+  }
+
+  /*
+  @media(max-width: 40rem){
+    .software-sections{
+      margin-right: 10.5rem;
+    }
+  }
+  */
 }
