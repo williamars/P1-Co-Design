@@ -129,11 +129,11 @@
 }
 
 
-@media(max-width: 70rem){
+@media(max-width: 49rem){
   .software-sections{
     display: grid;
     flex-direction: column;
-    margin-right: 3rem;
+    margin-left: 8rem;
   }
 
   .software-menu-item-image{
