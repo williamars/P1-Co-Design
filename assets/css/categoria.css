@@ -35,7 +35,7 @@
   height: 20rem;
 }
 
-.software-sections{
+.software-sections {
   display: flex;
   justify-content: space-between;
   margin: 1% auto;
@@ -82,7 +82,7 @@
 
 }
 
-.portfolio{
+.portfolio {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -119,7 +119,7 @@
  color: #FFFFFF;
 }
 
-.software-menu-item-link{
+.software-menu-item-link {
   display: flex;
   height:2rem;
   margin-top: 0.5rem;
@@ -129,7 +129,7 @@
 }
 
 
-@media(max-width: 49rem){
+@media(max-width: 49rem) {
   .software-sections{
     display: grid;
     flex-direction: column;
