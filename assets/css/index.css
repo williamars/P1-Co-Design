@@ -113,11 +113,10 @@
   color: #DAEAED;
 }
 
-@media(max-width: 49rem){
+@media(max-width: 100rem){
   .index-sections{
     width: 30rem;
     flex-direction: column;
-    margin-left: 8rem; 
 
   }
   .fablab{
