@@ -1,3 +1,43 @@
+.proj-header{
+  display: flex;
+  width: 40rem;
+  height: 40rem;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.proj-title{
+  display: flex;
+  width: 40rem;
+  height: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+  color: #DAEAED;
+}
+
+.proj-subtitle{
+  display: flex;
+  width: 40rem;
+  height: 3.5rem;
+  font-family: 'Roboto Slab', serif;
+  color: #DAEAED;
+  text-align: center;
+}
+
+.proj-title-img{
+  display: flex;
+  width: 30rem;
+  height: 20rem;
+}
+
+
+
 .proj-title{
   display: flex;
   width: 40rem;
@@ -80,6 +120,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: 2rem auto;
+  margin-top: 5rem;
   width:70rem;
   height:12rem;
   font-family: 'Red Hat Text', sans-serif;
@@ -133,115 +174,22 @@
 
 @media (max-width: 49rem) {
 
-  .desc{
-    width: 35rem;
-    margin-top:7rem;
-    margin-right:35%;
-    font-family: 'Red Hat Text', serif;
-    font-size: 1rem;
-    border-style: solid;
-    border-width: 0.01rem;
-    background-color: #FFFFFF;
-  }
-
-
-
   .proj-eq-mat{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 2rem;
-    width:17rem;
-    height:10rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    width:35rem;
+    height:12rem;
     font-family: 'Red Hat Text', sans-serif;
     color: #000000;
 
   }
 
-  .equipe-box{
-    display: grid;
-    grid-template-columns: ;
-    width:6rem;
-    height:6rem;
-    border-style: solid;
-    border-width: 0.3rem;
-    border-color: #1FB6ED;
-    background-color: #000000;
-  }
-
-  .equipe-title{
-    background-color: #000000;
-    font-family: 'Red Hat Text', sans-serif;
-    color: #FFFFFF;
-  }
-
-  .equipe-text1, .equipe-text2, .equipe-text3 {
-    font-size: 0.7rem;
-    color: #DAEAED;
-  }
-
-  .material-box{
-    display: grid;
-    grid-template-columns: ;
-    width:6rem;
-    height:6rem;
-    border-style: solid;
-    border-width: 0.3rem;
-    border-color: #1FB6ED;
-    background-color: #000000;
-  }
-
-  .material-title{
-    background-color: #000000;
-    font-family: 'Red Hat Text', sans-serif;
-    color: #FFFFFF;
-  }
-
-  .material-text1, .material-text2, .material-text3 {
-    font-size: 0.7rem;
-    color: #DAEAED;
-  }
-
-  .index-title{
-    display: flex;
-    width: 13rem;
-    height: 5rem;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.5rem;
-    color: #DAEAED;
-  }
-
-  .index-subtitle{
-    display: flex;
-    width: 80%;
-    height: 3.5rem;
-    font-family: 'Roboto Slab', serif;
-    color: #DAEAED;
-    text-align: center;
-  }
-  .index-title-img{
-    display: flex;
-    width: 80%;
-    height: 12rem;
-  }
-
-  .index-header{
-    display: flex;
-    width: 100%;
-    height: 25rem;
-    margin: 0.1rem auto;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    font-weight: bold;
-  }
-
   .main-menu{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 30rem;
     height: 5rem;
     align-items: center;
     font-family: 'Roboto Slab', serif;
@@ -251,10 +199,14 @@
   .main-menu-item{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 30rem;
     height: 12rem;
     align-items: center;
     font-family: 'Roboto Slab', serif;
     color: #000000;
+  }
+
+  .header {
+    width: 40rem;
   }
 }
