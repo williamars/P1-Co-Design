@@ -179,7 +179,7 @@
   .main-menu{
     display: flex;
     justify-content: space-between;
-    width: 49rem;
+    width: 45rem;
     height: 5rem;
     align-items: center;
     font-family: 'Roboto Slab', serif;
@@ -197,6 +197,6 @@
   }
 
   .header {
-    width: 49rem;
+    width: 47rem;
   }
 }
