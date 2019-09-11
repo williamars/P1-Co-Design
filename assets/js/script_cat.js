@@ -4,37 +4,14 @@
   rodar apenas quando toda a página estiver carregada. Isso
   foi explicado no Material Prévio de JavaScript da Aula 9.
 */
-document.addEventListener('DOMContentLoaded', function() {
+/* document.addEventListener('DOMContentLoaded', function() {
 
   /*
     Neste exemplo, por simplicidade, vamos usar um dicionário
     hardcoded. No projeto, os dados devem ser construídos a
     partir dos dados baixados do Firebase, como vimos antes.
   */
-  let context = {
-    'bigfour': {
-      'fed': {
-        'nome': 'Roger Federer',
-        'numSlams': 20,
-        'lesionado': false,
-      },
-      'nad': {
-        'nome': 'Rafael Nadal',
-        'numSlams': 19,
-        'lesionado': false,
-      },
-      'djo': {
-        'nome': 'Novak Djokovic',
-        'numSlams': 16,
-        'lesionado': true,
-      },
-      'mur': {
-        'nome': 'Andy Murray',
-        'numSlams': 3,
-        'lesionado': true,
-      },
-    },
-  }
+/*  let cat = coDesConnect('https://comp1mec-80273.firebaseio.com/')
 
   /*
     A função coDesReplace recebe dois parâmetros. O primeiro
@@ -47,5 +24,37 @@ document.addEventListener('DOMContentLoaded', function() {
     estão entre {{ e }} nesse elemento e cujos valores são os
     textos que devem substituir essas ocorrências de {{}}.
   */
-  coDesReplace('.list', context)
+/*  coDesReplace('.list', cat)
+}) */
+
+document.addEventListener('DOMContentLoaded', function() {
+  let params = coDesExtract()
+  let value = params['key']
+
+  let cat = coDesConnect('https://comp1mec-80273.firebaseio.com/')
+
+  cat.download('/', function(data) {
+
+    /*
+      NUNCA, JAMAIS, EM HIPÓTESE ALGUMA faça
+      replace em múltiplas tags se alguma
+      estiver dentro de outra! Veja o HTML
+      e note que não é o caso das abaixo.
+
+      É sério. Se fizer isso, você realmente
+      vai se arrepender. Você foi avisado.
+    */
+
+    context = data['biblioteca'][value]
+    coDesReplace('title', context)
+
+    context = data
+    coDesReplace('.menu-list', context)
+
+    context = data['biblioteca'][value]
+    coDesReplace('.call', context)
+
+    context = data['biblioteca'][value]
+    coDesReplace('.book-list', context)
+  })
 })
