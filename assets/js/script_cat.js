@@ -45,16 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
       vai se arrepender. Você foi avisado.
     */
 
-    context = data['biblioteca'][value]
+    context = data['portfolio'][value]
     coDesReplace('title', context)
 
     context = data
     coDesReplace('.menu-list', context)
 
-    context = data['biblioteca'][value]
+    context = data['portfolio'][value]
     coDesReplace('.call', context)
 
-    context = data['biblioteca'][value]
+    context = data['portfolio'][value]
     coDesReplace('.book-list', context)
   })
 })
