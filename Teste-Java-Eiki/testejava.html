@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Teste do Java
+</title>
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/testejava.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <main>
+    <h1>
+      Teste do Java
+    </h1>
+    <div class="list">
+      <ul>
+        {{#each portfolio}}
+          <li>
+            <p>
+              <strong>Chave:</strong> {{@key}}
+            </p>
+            <p>
+              <strong>Valor:</strong> {{this}}
+            </p>
+            <p>
+              <strong>Campo "categoria" do valor:</strong> {{this.categoria}}
+            </p>
+            <p>
+
+              <strong>Campo "projetos" do valor:</strong> {{this.projetos.game.titulo}}
+              
+            </p>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
