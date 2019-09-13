@@ -121,7 +121,7 @@
   .index-header{
     width: 100%;
     height: auto;
-    margin-left: 1rem
+    margin-left: 1rem;
   }
 
   .index-title-img{
@@ -130,7 +130,7 @@
     height: auto;
 }
   .index-title{
-    display: flex;
+    margin-left: 1rem;
     width: 100%;
     height: auto;
     font-size: 1.2rem;
