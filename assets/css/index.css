@@ -119,20 +119,19 @@
 @media(max-width: 49rem){
 
   .index-header{
-    width: 20rem;
-    height: 25rem;
-    margin-left: 5rem
+    width: 100%;
+    height: auto;
   }
 
   .index-title-img{
     display: flex;
-    width: 10rem;
-    height: 5rem;
+    width: 100%;
+    height: auto;
 }
   .index-title{
     display: flex;
-    width: 10rem;
-    height: 5rem;
+    width: 100%;
+    height: auto;
     font-size: 1.2rem;
   }
 

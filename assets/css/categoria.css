@@ -135,6 +135,30 @@
     display: grid;
     flex-direction: column;
     margin-left: 8rem;
+    width: 10%;
+  }
+
+  .section-title{
+    width: 2rem;
+  }
+
+  .section-title-image{
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .section-subtitle{
+    margin: 0;
+    width: 20rem;
+  }
+
+  .software-sections{
+    margin-left: 0rem;
+  }
+
+  .software-menu-item{
+    width: 12rem;
+    height: 10rem;
   }
 
   .software-menu-item-image{
