@@ -118,7 +118,6 @@
 
 @media(max-width: 49rem){
   .index-sections{
-    width: 40rem;
     flex-direction: column;
 
   }
