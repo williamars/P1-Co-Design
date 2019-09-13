@@ -164,28 +164,24 @@
 
   .software-menu-item-image{
     display: flex;
-    margin-top: 0rem;
-    margin-left: -0.01rem;
+    margin: 0.01%;
     width:100%;
     height:11.95rem;
   }
 
   .app{
     width: 100%;
-    margin: 0.002rem;
     border-width: 100%;
   }
 
   .dados{
     width: 100%;
-    margin-top: 1rem;
-    margin: 0.002rem;
     border-width: 100%;
   }
 
   .game{
     width: 100%;
-    margin-top: 14.3rem;
+    margin-top: 12.6rem;
     border-width: 100%;
   }
 
