@@ -117,6 +117,26 @@
 }
 
 @media(max-width: 49rem){
+
+  .index-header{
+    width: 100%;
+    height: auto;
+    margin-left: 1rem;
+  }
+
+  .index-title-img{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+  .index-title{
+    margin-left: 1rem;
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+
   .index-sections{
     flex-direction: column;
 
