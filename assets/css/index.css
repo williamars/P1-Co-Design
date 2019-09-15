@@ -120,7 +120,7 @@
 
   .index-header{
     width: 100%;
-    height: 30rem;
+    height: 25rem;
   }
 
   .index-title-img{
@@ -141,27 +141,25 @@
   .index-sections{
     flex-direction: column;
     width: 100%;
-    height: 40rem;
+    height: 41rem;
 
   }
   .fablab{
-    width: 23rem;
+    width: 100%;
     margin: auto;
   }
   .calculo{
-    width: 23rem;
+    width: 100%;
     margin: 0 auto;
   }
   .software{
-    width: 23rem;
-    margin: 1remr auto;
-    margin-bottom: 1rem
-
+    width: 100%;
+    margin: 0.9rem auto;
   }
   .sections-menu-item-image{
-    width: 14rem;
+    width: 100%;
   }
   .sections-menu-item{
-    width: 8rem;
+    width: 100%;
   }
 }
