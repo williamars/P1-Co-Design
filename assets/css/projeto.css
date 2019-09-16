@@ -53,7 +53,7 @@
 
 .mat-team{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
   width: 30rem;
@@ -64,10 +64,10 @@
 
 .proj-eq-mat{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 2rem auto;
   margin-top: 5rem;
-  width:70rem;
+  width: 30rem;
   height:12rem;
   font-family: 'Red Hat Text', sans-serif;
   color: #000000;
