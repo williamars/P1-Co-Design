@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+}
+
+.cover {
+}
+
+.cover-image {
+}
+
+.description {
+  margin-left: 2rem;
+}
+
+.description-title {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description-subtitle {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.description-text {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+@media (max-width: 68rem) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .description-title {
+    text-align: center;
+  }
+}

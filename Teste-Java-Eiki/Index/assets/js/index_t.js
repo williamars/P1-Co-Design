@@ -21,14 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     context = data
     console.log(data)
-    console.log(data['biblioteca'][value])
-   
-    coDesReplace('.menu-list', context)
-
-    context = data['biblioteca'][value]
-    coDesReplace('.call', context)
-
-    context = data['biblioteca'][value]
-    coDesReplace('.book-list', context)
   })
 })

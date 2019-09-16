@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Livros de {{full_secao}}</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/base.css" rel="stylesheet">
+  <link href="assets/css/secao.css" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/secao.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body class="body">
+  <header class="header">
+    <figure class="logo">
+      <a href="index.html"><img class="logo-image" src="assets/img/logo.jpg" alt="Logotipo"></a>
+    </figure>
+
+    <nav class="menu">
+      <h1 class="menu-title">
+        Livros do Primeiro Ano
+      </h1>
+
+      <figure class="menu-figure">
+        <a href="#"><img class="menu-image" src="assets/img/menu.png" alt="Abrir Menu"></a>
+      </figure>
+
+      <ul class="menu-list">
+        {{#each biblioteca}}
+          <li class="menu-item"><a class="menu-link" href="secao.html?key={{@key}}">{{this.secao}}</a></li>
+        {{/each}}
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="call">
+      <figure class="call-figure">
+        <img class="call-image" src="assets/img/sociais.png" alt="Pintura Operários">
+        <p class="call-title">{{full_secao}}</p>
+      </figure>
+
+      <p class="call-text">
+        Nesta página estão disponíveis os livros de Ciências Sociais
+        Aplicadas! Afinal, engenharia não é apenas cálculo...
+      </p>
+    </div>
+
+    <ul class="book-list">
+      {{#each livros}}
+        <li class="book-item">
+          <figure class="book-cover">
+            <img class="book-image" src="assets/img/{{this.mini_imagem}}" alt="{{this.mini_titulo}}">
+          </figure>
+
+          <div class="book-description">
+            <h2 class="book-title">
+              <a class="book-link" href="livro.html?key={{@key}}">{{this.titulo}}</a>
+            </h2>
+
+            <p class="book-body">
+              {{this.descricao}}
+            </p>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+    </main>
+  </body>
+  </html>
