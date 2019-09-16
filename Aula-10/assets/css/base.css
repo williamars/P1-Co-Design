@@ -1,0 +1,168 @@
+.body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/*
+  Por padrão, um elemento block ocupa toda a largura. Assim, o
+  posicionamento e o tamanho do header e do main já estão corretos
+  sem precisarmos fazer praticamente nada. Só precisamos nos
+  preocupar com a organização dos elementos que estão dentro deles.
+*/
+
+.header {
+  padding: .5rem;
+  color: #d5dfe2;
+  background-color: #0d084c;
+  box-shadow: 0 0 5px;
+  /*
+    Queremos que os elementos do header fiquem lado a lado. Como isso é
+    comportamento padrão do flex, precisamos apenas do "display: flex".
+    ATENÇÃO: o "display: flex" afeta filhos do header, não o header em si.
+  */
+  display: flex;
+}
+
+.logo {
+}
+
+.logo-image {
+  /*
+    Quando você muda apenas a largura ou apenas a altura, a outra
+    dimensão é alterada junto, de acordo com a proporção original.
+  */
+  height: 2rem;
+}
+
+.menu {
+  /*
+    Queremos que o nav ocupe todo o espaço, então usamos um flex-grow.
+    ATENÇÃO: se o pai do nav não for flex, não podemos usar flex-grow.
+  */
+  flex-grow: 1;
+  /*
+    Queremos que os elementos do nav fiquem lado a lado e verticalmente
+    centralizados, então usamos uma combinação de "display" e "align-items".
+    ATENÇÃO: o "display: flex" afeta os filhos do nav, mas não o nav em si.
+  */
+  display: flex;
+  align-items: center;
+}
+
+.menu-title {
+  /*
+    Por padrão, o título do menu não existe. Só existe no modo mobile.
+  */
+  display: none;
+}
+
+.menu-figure {
+  /*
+    Por padrão, o botão do menu não existe. Só existe no modo mobile.
+  */
+  display: none;
+}
+
+.menu-list {
+  /*
+    Queremos que o ul ocupe todo o espaço, então usamos um flex-grow.
+    ATENÇÃO: se o pai do ul não for flex, não podemos usar flex-grow.
+  */
+  flex-grow: 1;
+  /*
+    Queremos que os elementos do ul fiquem lado a lado e igualmente
+    espaçados, então usamos uma combinação de "display" e "justify-content".
+    ATENÇÃO: o "display: flex" afeta os filhos do ul, mas não o ul em si.
+  */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  font-family: 'Lora', serif;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #d5dfe2;
+}
+/*
+  Pseudo-classe que define as propriedades de um link quando o mouse
+  passa por cima dele. Existem outras pseudo-classes no CSS além dessa.
+*/
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 4rem 0;
+  /*
+    Por questão de legibilidade, não permitimos que a seção principal.
+    Seja arbitrariamente larga. Limitamos a largura a 66 caracteres.
+  */
+  max-width: 66rem;
+  /*
+    A maneira mais fácil de centralizar um elemento block é usar "auto"
+    como as margens laterais. Só funciona se ele tem largura limitada.
+  */
+  margin: 0 auto;
+}
+
+
+@media (max-width: 68rem) {
+  .main {
+    /*
+      Conforme a tela diminui, precisamos ser menos generosos com espaço.
+    */
+    padding: 2rem;
+  }
+}
+
+
+@media (max-width: 49rem) {
+  .menu-title {
+    font-weight: bold;
+    text-align: center;
+    /*
+      Queremos que o nav ocupe todo o espaço, então usamos um flex-grow.
+      ATENÇÃO: se o pai do nav não for flex, não podemos usar flex-grow.
+    */
+    flex-grow: 1;
+    /*
+      O display padrão de um h1 é block, então é o que usamos para
+      neutralizar o "display: none" e fazer ele aparecer no modo mobile.
+    */
+    display: block;
+  }
+
+  .menu-figure {
+    /*
+      O display padrão de um img é inline, então é o que usamos para
+      neutralizar o "display: none" e fazer ele aparecer no modo mobile.
+    */
+    display: block;
+  }
+
+  .menu-image {
+    /*
+      Quando você muda apenas a largura ou apenas a altura, a outra
+      dimensão é alterada junto, de acordo com a proporção original.
+    */
+    height: 2rem;
+  }
+
+  .menu-list {
+    /*
+      No modo mobile, usamos "display: none" para tirar a lista do menu.
+      Por enquanto, vamos apenas tirar. Vocês também podem fazer isso
+      no projeto. Depois vamos ver como fazer ela aparecer com animações.
+    */
+    display: none;
+  }
+
+  .main {
+    /*
+      Conforme a tela diminui, precisamos ser menos generosos com espaço.
+    */
+    padding: 1rem;
+  }
+}
