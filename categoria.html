@@ -23,9 +23,9 @@
   <header class="header">
     <a href="index.html"><img class="logo" src="assets/img/projeto2.png" alt="logo"></a>
     <ul class="main-menu">
-      <li class="main-menu-item"><a class="link" href="categoria.html">FabLab</a></li>
-      <li class="main-menu-item"><a class="link" href="categoria.html">Cálculo</a></li>
-      <li class="main-menu-item"><a class="link" href="categoria.html">Software</a></li>
+      {{#each portfolio}}
+      <li class="main-menu-item"><a class="link" href="categoria.html?key={{@key}}">{{this.nome}}</a></li>
+      {{/each}}
     </ul> 
   </header>
 
@@ -42,11 +42,12 @@
 
 
     <div class="software-sections">
+    {{#each projetos}}
       <div class="app">
         <a href="projeto.html"><img class="software-menu-item-image" src="assets/img/app.jpeg" alt="Imagem de um App"></a>
         <ul class="software-menu-item">
           <li class="software-menu-item-link">
-            <a class="link" href="projeto.html">Aplicativo</a>
+            <a class="link" href="projeto.html">{{this.app.titulo}}</a>
           </li>
           <li class="software-menu-item-text">  
             <p>
@@ -57,25 +58,9 @@
           </li>
         </ul>
       </div>  
-
-      <div class="dados"> 
-        <a href="projeto.html"><img class="software-menu-item-image" src="assets/img/cdados.jpeg" alt="Imagem representativa de dados"></a>
-        <ul class="software-menu-item">
-          <li class="software-menu-item-link">
-            <a class="link" href="projeto.html">Dados</a>
-          </li>
-          <li class="software-menu-item-text">
-            <p>
-              Este projeto consiste em analisar 
-              dados de países relacionados com 
-              uma organização internacional usando
-              a biblioteca pandas do Python.
-            </p>
-          </li>
-        </ul>
-      </div>
+    {{/each}}
     </div>
-
+<!--
     <div class="software-sections">
       <div class="game"> 
         <a href="projeto.html"><img class="software-menu-item-image" src="assets/img/jogo.jpeg" alt="Game"></a>
@@ -108,6 +93,7 @@
         </ul>
       </div>
     </div>
+-->
   </main>
 
 </body>
