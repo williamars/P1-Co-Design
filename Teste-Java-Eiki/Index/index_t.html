@@ -46,32 +46,25 @@
 			<!--ARRUMANDO AS CAIXAS DE CATEGORIAS-->
 
 			<!--FABLAB-->
-			{{#each portfolio}}
+			
 			<div class="index-sections">
-					<div class="fablab">
-						<a href="categoria.html"><img class="sections-menu-item-image" src="assets/img/fablab.jpeg" alt="FabLab"></a>
-						<ul class="sections-menu-item">
-<<<<<<< HEAD
-								<li class="sections-menu-item-link">
-									<a class="link" href="categoria.html?key={{@key}}">{{this.nome}}</a></li>
-=======
+			{{#each portfolio}}
+				<div class="fablab">
+					<a href="categoria.html"><img class="sections-menu-item-image" src="assets/img/fablab.jpeg" alt="FabLab"></a>
+					<ul class="sections-menu-item">
 							<li class="sections-menu-item-link">
-								<a class="link" href="categoria.html?key={{@key}}">{{this.calculo.nome}}</a>
-							</li>
->>>>>>> 2d0a7ca29f74b75159ed6ddaa184fa280c041bd4
-							<li class="sections-menu-item-text">	
-								<p>
-									Nesta seção você encontrará todos os projetos feitos no Fablab
-								</p>
-							</li>
-						</ul>
-					</div>	
-<<<<<<< HEAD
+								<a class="link" href="categoria.html?key={{@key}}">{{this.nome}}</a></li>
+						<li class="sections-menu-item-text">	
+							<p>
+								{{this.categoria}}
+							</p>
+						</li>
+					</ul>
+				</div>
 			{{/each}}
-=======
->>>>>>> 2d0a7ca29f74b75159ed6ddaa184fa280c041bd4
 
-					<!--CALCULO-->
+
+					<!--
 					<div class="calculo"> 
 						<a href="categoria.html"><img class="sections-menu-item-image" src="assets/img/calculo2.jpg" alt="Cálculo"></a>
 						<ul class="sections-menu-item">
@@ -86,7 +79,7 @@
 						</ul>
 					</div>
 
-					<!--SOFTWARE-->
+					
 					<div class="software">
 						<a href="categoria.html"><img class="sections-menu-item-image" src="assets/img/software.jpg" alt="Software"></a>
 						<ul class="sections-menu-item">
@@ -100,7 +93,7 @@
 							</li>
 						</ul>
 					</div>
-				{{/each}}
+					-->
 			</div>
 		</main>
 

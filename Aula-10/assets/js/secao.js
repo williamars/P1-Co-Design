@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
       É sério. Se fizer isso, você realmente
       vai se arrepender. Você foi avisado.
     */
-
+    
     context = data['biblioteca'][value]
     coDesReplace('title', context)
 

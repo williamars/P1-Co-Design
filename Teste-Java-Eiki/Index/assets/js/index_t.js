@@ -34,7 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.book-list', context)
 
    */
-=======
->>>>>>> 2d0a7ca29f74b75159ed6ddaa184fa280c041bd4
   })
 })
