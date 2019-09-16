@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-  let params = coDesExtract()
-  let value = params['key']
+ /* let params = coDesExtract()
+  let value = params['key'] */
 
   let db = coDesConnect('https://comp1mec-80273.firebaseio.com/')
 
@@ -16,9 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
       vai se arrepender. Você foi avisado.
     */
 
-    context = data['portfolio'][value]
-    coDesReplace('index-sections', context)
+    context = data
+    coDesReplace('.index-sections', context)
 
+    /*
     context = data
     console.log(data)
     console.log(data['biblioteca'][value])
@@ -30,5 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     context = data['biblioteca'][value]
     coDesReplace('.book-list', context)
+
+   */
   })
 })
