@@ -39,9 +39,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin: 0.5% auto;
-  margin-left: 25rem;
-  width:52%;
+  margin-left: 10%;
+  width: 80%;
   height:12rem;
   border-style: solid;
   border-width: 0.001rem
@@ -122,7 +121,7 @@
 
 .software-menu-item-link {
   display: flex;
-  height:2rem;
+  height:5rem;
   margin-top: 0.5rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1.2rem;
