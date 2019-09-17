@@ -1,0 +1,101 @@
+.call {
+  /*
+    Queremos que os elementos do div fiquem verticais e centralizados, então
+    usamos uma combinação de "display", "flex-direction" e "align-items".
+    ATENÇÃO: o "display: flex" afeta os filhos do div, mas não o div em si.
+  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-figure {
+  width: 33%;
+}
+
+.call-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.call-text {
+  width: 66%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section-list {
+  margin-top: 4rem;
+  /*
+    Queremos que os elementos do ul sejam organizados em três colunas,
+    então usamos uma combinação de "display" e "grid-template-columns".
+    ATENÇÃO: o "display: grid" afeta os filhos do ul, não o ul em si.
+  */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-item {
+  padding: .5rem;
+  /*
+    Queremos que os elementos do li fiquem lado a lado. Como isso é
+    comportamento padrão do flex, precisamos apenas do "display: flex".
+    ATENÇÃO: o "display: flex" afeta filhos do li, não o li em si.
+  */
+  display: flex;
+}
+
+.section-cover {
+}
+
+.section-image {
+  /*
+    Se a imagem original não tiver essas proporções, será distorcida.
+  */
+  width: 8rem;
+  height: 8rem;
+  border-radius: .5rem;
+}
+
+.section-description {
+  margin-left: .5rem;
+}
+
+.section-title {
+  font-family: 'Lora', serif;
+}
+
+.section-link {
+  text-decoration: none;
+}
+.section-link:hover {
+  text-decoration: underline;
+}
+
+.section-body {
+  margin-top: .5rem;
+}
+
+
+@media (max-width: 68rem) {
+  .section-list {
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 49rem) {
+  .call-figure {
+    width: 66%;
+  }
+
+  .call-text {
+    width: 100%;
+  }
+
+  .section-list {
+    grid-template-columns: 1fr;
+  }
+}

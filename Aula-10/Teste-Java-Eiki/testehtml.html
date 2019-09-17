@@ -1,0 +1,60 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<title>Projeto - SpeedRetro</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&Roboto+Slab&display=swap" rel="stylesheet">
+		<link href="assets/css/reset.css" rel="stylesheet">
+		<link href="assets/css/header.css" rel="stylesheet">
+		<link href="assets/css/projeto.css" rel="stylesheet">
+		<script src="assets/js/codes.js"></script>
+  		<script src="assets/js/testejava.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body{
+				background-color: #000000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="header">
+			<a href="index.html"><img class="logo" src="assets/img/projeto2.png" alt="logo"></a>
+			<ul class="main-menu">
+				<li class="main-menu-item"><a class="link" href="categoria.html">FabLab</a></li>
+				<li class="main-menu-item"><a class="link" href="categoria.html">Cálculo</a></li>
+				<li class="main-menu-item"><a class="link" href="categoria.html">Software</a></li>
+			</ul>	
+		</header>
+		<main>
+			<div class="proj-header">
+					<p class="proj-title">
+						{{portfolio.software.projetos.game.titulo}}
+					</p>
+					<img class="proj-title-img"  src="assets/img/video.gif" alt="engenheiro">	
+					<p class="proj-subtitle">
+						{{portfolio.software.projetos.game.descricao}}	
+					</p>	
+			</div>
+
+				<!--ARRUMANDO AS CAIXAS DE CATEGORIAS-->
+				<div class="proj-eq-mat">
+					<div class="equipe-box">
+						<h2 class="equipe-title"> Equipe: </h2>
+							<ul class="equipe-text-father">
+								<li class="equipe-text1">{{portfolio.software.projetos.game.equipe}}</li>
+							</ul>
+					</div>
+					<div class="material-box">
+						<h2 class="material-title"> Materiais: </h2>
+							<ul class="material-text-father" >
+								<li class="material-text1">{{portfolio.software.projetos.game.ferramentas}}</li>
+							</ul>
+						}
+					<div> 
+				</div>
+		</main>
+
+	</body>
+			</html>
