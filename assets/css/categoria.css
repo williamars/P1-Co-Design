@@ -38,8 +38,9 @@
 .software-sections{
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   margin: 0.5% auto;
-  margin-right: 20rem;
+  margin-left: 25rem;
   width:52%;
   height:12rem;
   border-style: solid;
@@ -48,8 +49,7 @@
 
 .app {
   display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
+  justify-content: space-between;
   width:22rem;
   height:12rem;
   border-style: solid;
