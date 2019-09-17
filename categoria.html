@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -42,23 +41,24 @@
 
 
     <div class="software-sections">
-    {{#each projetos}}
+      {{#each projetos}}
       <div class="app">
-        <a href="projeto.html"><img class="software-menu-item-image" src="assets/img/app.jpeg" alt="Imagem de um App"></a>
+        <a href="projeto.html?key={{@key}}"><img class="software-menu-item-image" src="assets/img/app.jpeg" alt="Imagem de um App"></a>
         <ul class="software-menu-item">
           <li class="software-menu-item-link">
-            <a class="link" href="projeto.html">{{this.app.titulo}}</a>
+            <a class="link" href="projeto.html?key={{@key}}">{{this.titulo}}</a>
           </li>
           <li class="software-menu-item-text">  
-            <p>
+            <a class="link" href="categoria.html?key={{@key}}">{{this.descricao}}</a></li>
+            <!--p>
               Este é um aplicativo criado na disciplina
               Co-Design de Aplicativos, com o intuito
               de auxiliar um grupo de pessoas.
             </p>
-          </li>
+          </li-->
         </ul>
       </div>  
-    {{/each}}
+      {{/each}}
     </div>
 <!--
     <div class="software-sections">
@@ -93,8 +93,8 @@
         </ul>
       </div>
     </div>
--->
-  </main>
+  -->
+</main>
 
 </body>
 </html>

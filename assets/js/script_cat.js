@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('title', context)
     context = data
     coDesReplace('.main-menu', context)
-    context = data['portifolio'][value][projetos]
+    context = data['portfolio'][value]
     coDesReplace('.software-sections', context)
   })
 })
