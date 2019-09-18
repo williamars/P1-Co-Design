@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Softwares</title>
+  <title>Categoria</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&Roboto+Slab&display=swap" rel="stylesheet">
   <link href="assets/css/reset.css" rel="stylesheet">
@@ -30,15 +30,13 @@
 
   <main>
     <div class="section-title">
-      {{#each portfolio}}
       <p>
-        {{this.nome}}
+        {{titulo}}
       </p>
       <img class="section-title-image" src="assets/img/{{this.imagem}}" alt="Imagem da categoria">
       <p class="section-subtitle">
-        {{this.descricao}}
+        {{descricao}}
       </p>
-      {{/each}}
     </div>
 
 
