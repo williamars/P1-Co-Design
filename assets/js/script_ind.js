@@ -8,5 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.index-sections', context)
     context = data
     coDesReplace('.main-menu', context)
+    context = data['portfolio']
+    coDesReplace('.index-header', context)
   })
 })
