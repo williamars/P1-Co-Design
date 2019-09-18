@@ -11,5 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.main-menu', context)
     context = data['portfolio'][value]
     coDesReplace('.software-sections', context)
+    context = data['portfolio'][value]
+    coDesReplace('.software-menu-item-image', context)
   })
 })
