@@ -30,21 +30,19 @@
 
 	<main>
 		<div class="proj-header">
-			{{#each projetos}}
-			<p class="proj-title">
-				{{this.titulo}}
-			</p>
-			<img class="proj-title-img"  src="assets/img/video.gif" alt="engenheiro">	
+			<div class='blabla'>
+				<p class="proj-title">{{titulo}}</p>
+			</div>
+			<figure class='blabla2'>
+				<img class="proj-title-img" src="assets/img/{{this.imagem}}" alt="Imagem">	
+			</figure>
 			<p class="proj-subtitle">
-				Trabalho de fazer um jogo da disciplina Design de Software, 
-				utilizando o módulo Pygame do Python, sendo um jogo de carro, 
-				arcade e inspirado no jogo Retro Speed 2.	
+				{{descricao}}	
 			</p>
 		</div>
 
 		<!--ARRUMANDO AS CAIXAS DE CATEGORIAS-->
 		<div class="proj-eq-mat">
-			{{each projetos}}
 			<div class="equipe-box">
 				<h2 class="equipe-title"> Equipe </h2>
 				<ul>
@@ -54,9 +52,7 @@
 			<div class="material-box">
 				<h2 class="material-title"> Materiais </h2>
 				<ul>
-					<li class="material-text1">Computador</li>
-					<li class="material-text2">Ferramenta de programação Python</li>
-					<li class="material-text3">Aplicativo Visual Studio</li>
+					<li class="equipe-text1">{{this.ferramentas}}</li>
 				</ul> 
 			</div>
 		</div>
