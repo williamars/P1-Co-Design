@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.software-sections', context)
     context = data['portfolio'][value]
     coDesReplace('.software-menu-item-image', context)
-    context = data
+    context = data['portfolio'][value]
     coDesReplace('.section-title', context)
   })
 })
