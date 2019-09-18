@@ -176,12 +176,13 @@
   .proj-eq-mat{
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem auto; 
-    width:100% ;
+    margin-right: 10rem; 
+    width:20rem ;
     height:12rem;
     font-family: 'Red Hat Text', sans-serif;
     color: #000000;
 
   }
+  .
 
 }
