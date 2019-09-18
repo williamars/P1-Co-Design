@@ -30,13 +30,15 @@
 
   <main>
     <div class="section-title">
+      {{#each portfolio}}
       <p>
-        Software
+        {{this.nome}}
       </p>
-      <img class="section-title-image" src="assets/img/software.jpg" alt="Imagem de códigos">
+      <img class="section-title-image" src="assets/img/{{this.imagem}}" alt="Imagem da categoria">
       <p class="section-subtitle">
-        Nesta página, estão os projetos realizados com auxílio de softwares, como Python e HTML, os quais foram totalmente relevantes para esses trabalhos.
+        {{this.descricao}}
       </p>
+      {{/each}}
     </div>
 
 
@@ -52,12 +54,6 @@
           </li>
           <li class="software-menu-item-text">  
             <a class="link" href="categoria.html?key={{@key}}">{{this.descricao}}</a></li>
-            <!--p>
-              Este é um aplicativo criado na disciplina
-              Co-Design de Aplicativos, com o intuito
-              de auxiliar um grupo de pessoas.
-            </p>
-          </li-->
         </ul>
       </div>  
       {{/each}}
